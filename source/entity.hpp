@@ -32,7 +32,7 @@
 
 class entity {
 public:
-	coords position{};
+	coords position{0, 0};
 	std::deque<coords> prev_positions;
 	int health = 100;
 	char body;
